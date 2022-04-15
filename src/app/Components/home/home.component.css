@@ -1,0 +1,10 @@
+.landing-page {
+  background: url("https://images.pexels.com/photos/552784/pexels-photo-552784.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500")
+    center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}

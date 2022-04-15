@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <app-github-search (Cevent)="getuserData($event)"></app-github-search>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-sm-4">
+      <app-github-profile [userData]="userData"></app-github-profile>
+    </div>
+    <div class="col-sm-8">
+      <app-github-details></app-github-details>
+    </div>
+  </div>
+</div>
